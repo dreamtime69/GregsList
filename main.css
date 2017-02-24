@@ -1,0 +1,113 @@
+html {
+	box-sizing: border-box;
+	font-size: 12pt;
+}
+
+nav {
+	font-family: arial;
+	display: block;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 4em;
+	background-color: lightgrey;
+	width: 100%;
+}
+.gregs,.account,.post {
+	position: fixed;
+	text-decoration: none;
+}
+.account,.post {
+	color: purple;
+	top:.7em;
+}
+.gregs {
+	top:.5em;
+	left: 2em;
+	font-size: 120%;
+	color: black;
+}
+.account {
+	right: 4em;
+}
+.post {
+	right: 10em;
+}
+
+body {
+	padding: 80px;
+}
+
+form {
+	font-size: 120%;
+	font-weight: bold;
+	font-family: arial;
+	/*margin-left:7em;*/
+	margin-top: 2em;
+	/*padding: 10px;*/
+}
+
+.search {
+	display: inline-block;
+	height: 30px;
+	border:1px solid grey;
+}
+
+.button {
+	position: relative;
+	width: 30px;
+	left: 26em;
+	top:-1.8em;
+	border:1px solid grey;
+	padding: 1px;
+}
+.window {
+	width: 37em;
+
+}
+
+ul {
+	display: block;
+	font-family: arial;
+	font-weight: bold;
+	color: grey;
+	margin-left:-3em;
+	list-style: none;
+}
+li {
+	display: inline-block;
+	padding:.3em;
+}
+
+.job {
+	color: blue;
+	font-size: 120%;
+	text-decoration: none;
+}
+
+.navbar {
+	font-size: 0;
+	display: inline-block;
+	/*margin-left: 9em;*/
+	/*padding-bottom: 3em;*/
+	border: 1px solid grey;
+	border-radius: 3px;
+}
+
+.navbar div {
+	display: inline-block;
+	position: relative;
+	font-size: 16pt;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	padding: 8px;
+}
+
+button {
+	position: relative;
+	top: 0px;
+	font-size: 16pt;
+	background-color: white;
+	border-radius: 3px;
+	padding: 8px 15px;
+}
